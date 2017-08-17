@@ -3,7 +3,7 @@ var express = require('express');
 var app = express();
 var quotes = [
 	'The pie is a lie.',
-	'It\'s unsettling to meet people who don\'t eat pies.'
+	'It\'s unsettling to meet people who don\'t eat pie.'
 ];
 
 app
