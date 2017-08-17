@@ -1,0 +1,9 @@
+{
+  "name": "applepie",
+  "version": "1.0.0",
+  "description": "Meetup on CodeShip",
+  "main": "index.js",
+  "repository": "https://github.com/codaisseur-test/tenicia.git",
+  "author": "TP",
+  "license": "MIT"
+}
