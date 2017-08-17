@@ -1,0 +1,10 @@
+app:
+  build:
+    image: {TENICIA/MEETUP_CODESHIP}
+    dockerfile_path: Dockerfile
+- type: push
+  service: app
+  name: push_image_to_dockerhub
+  image_name: {TENICIA/MEETUP_CODESHIP}
+  registry: https://index.docker.io/v1/
+  encrypted_dockercfg_path: dockercfg.encrypted
