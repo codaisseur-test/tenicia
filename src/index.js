@@ -15,3 +15,5 @@ app
 	.listen(1234, function () {
 		console.log('The spoon is listening on port 1234')
 	});
+  
+module.exports = app;

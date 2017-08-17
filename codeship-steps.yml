@@ -1,3 +1,7 @@
+- type: parallel
+  steps:
+    - service: test
+      command: yarn test
 - type: push
   service: app
   name: push_image_to_dockerhub
