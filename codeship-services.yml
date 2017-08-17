@@ -2,3 +2,5 @@ app:
   build:
     image: "tenicia/meetup_codeship"
     dockerfile_path: Dockerfile
+database:
+  image: postgres:latest
